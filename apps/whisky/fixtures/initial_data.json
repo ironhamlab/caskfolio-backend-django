@@ -1,0 +1,117 @@
+[
+  {
+    "model": "whisky.casktype",
+    "pk": 1,
+    "fields": { "name": "Sherry", "description": "셰리 와인 숙성 캐스크. 건포도, 초콜릿, 크리스마스 케이크 향을 부여." }
+  },
+  {
+    "model": "whisky.casktype",
+    "pk": 2,
+    "fields": { "name": "Bourbon", "description": "버번 위스키 숙성 캐스크. 바닐라, 캐러멜, 코코넛 향을 부여." }
+  },
+  {
+    "model": "whisky.casktype",
+    "pk": 3,
+    "fields": { "name": "Port", "description": "포트 와인 숙성 캐스크. 붉은 과일, 베리류 향을 부여." }
+  },
+  {
+    "model": "whisky.casktype",
+    "pk": 4,
+    "fields": { "name": "Virgin Oak", "description": "새 오크 캐스크. 강한 오크, 스파이시, 탄닌 향을 부여." }
+  },
+  {
+    "model": "whisky.casktype",
+    "pk": 5,
+    "fields": { "name": "Mizunara", "description": "일본 미즈나라 오크 캐스크. 백단향, 향신료, 오리엔탈 향을 부여." }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 1,
+    "fields": {
+      "name": "Glenfiddich 12 Year",
+      "distillery": "Glenfiddich",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "speyside",
+      "age": 12,
+      "abv": 40.0,
+      "cask_types": [1, 2],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "세계에서 가장 많이 팔리는 싱글 몰트 위스키. 부드럽고 과일향이 풍부해 입문자에게 최적.",
+      "history": "1887년 윌리엄 그랜트가 설립한 글렌피딕 증류소의 대표작.",
+      "bartender_tip": "니트로 마시면 배 향이 극대화되고, 온더락으로 마시면 더욱 부드러워집니다.",
+      "pairing": ["다크 초콜릿", "배", "연어"],
+      "serving_guide": {
+        "neat": "상온에서 튤립 글라스로. 배와 꿀 향이 살아납니다.",
+        "rocks": "얼음 한두 개로 차갑게. 더욱 청량하게 즐길 수 있습니다.",
+        "splash": "물 한 방울로 숨겨진 꽃향기가 올라옵니다.",
+        "soda": "하이볼로 즐기기에도 훌륭합니다."
+      },
+      "flavor_profile": {"smoky": 10, "sweet": 70, "fruity": 80, "woody": 40, "spicy": 20, "floral": 60},
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 2,
+    "fields": {
+      "name": "Laphroaig 10 Year",
+      "distillery": "Laphroaig",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "islay",
+      "age": 10,
+      "abv": 40.0,
+      "cask_types": [2],
+      "peat_level": "heavy",
+      "price_tier": "mid",
+      "description": "아이라 위스키의 대명사. 강렬한 피트, 스모키, 해양성 향이 특징.",
+      "history": "1815년 설립. '의견이 갈리는 위스키'라는 별명을 가진 개성 강한 위스키.",
+      "bartender_tip": "니트로 마시는 것을 강력 추천. 물을 조금 추가하면 숨겨진 단맛이 올라옵니다.",
+      "pairing": ["훈제 연어", "굴", "시가"],
+      "serving_guide": {
+        "neat": "니트로 마셔야 피트향이 극대화됩니다.",
+        "rocks": "얼음을 넣으면 스모키함이 다소 줄어듭니다.",
+        "splash": "물 한 방울이 단맛과 과일향을 끌어냅니다.",
+        "soda": "추천하지 않습니다. 개성이 희석됩니다."
+      },
+      "flavor_profile": {"smoky": 95, "sweet": 20, "fruity": 15, "woody": 50, "spicy": 60, "floral": 10},
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 3,
+    "fields": {
+      "name": "Jim Beam White",
+      "distillery": "Jim Beam",
+      "country": "usa",
+      "whisky_type": "bourbon",
+      "region": "kentucky",
+      "age": null,
+      "abv": 40.0,
+      "cask_types": [4],
+      "peat_level": "none",
+      "price_tier": "budget",
+      "description": "세계에서 가장 많이 팔리는 버번 위스키. 바닐라와 캐러멜의 달콤함이 특징.",
+      "history": "1795년부터 시작된 빔 가문의 역사를 이어받은 버번의 대명사.",
+      "bartender_tip": "하이볼이나 콜라와 섞어 마시기 좋습니다. 온더락으로도 훌륭합니다.",
+      "pairing": ["바비큐", "옥수수빵", "피칸"],
+      "serving_guide": {
+        "neat": "바닐라와 오크 향을 온전히 느낄 수 있습니다.",
+        "rocks": "얼음과 함께 마시면 더욱 부드러워집니다.",
+        "splash": "물을 조금 추가하면 캐러멜 향이 강해집니다.",
+        "soda": "콜라나 진저에일과 잘 어울립니다."
+      },
+      "flavor_profile": {"smoky": 10, "sweet": 75, "fruity": 40, "woody": 70, "spicy": 45, "floral": 20},
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  }
+]

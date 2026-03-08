@@ -8,8 +8,10 @@ is_active = False 함께 처리
 
 ### country 필드 제거
 
-country는 DB 필드로 관리하지 않고 style 필드에서 유추하는 @property로 처리
-이유: style과 country 중복 저장 시 데이터 불일치 가능성 차단
+~~country는 DB 필드로 관리하지 않고 style 필드에서 유추하는 @property로 처리~~
+~~이유: style과 country 중복 저장 시 데이터 불일치 가능성 차단~~
+
+-> 변경
 
 ```python
 @property
