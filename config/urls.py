@@ -8,4 +8,5 @@ urlpatterns = [
     # path('api/v1/auth/social/', include('allauth.socialaccount.urls')),
     path('api/v1/whiskies/', include('apps.whisky.urls')),
     path('api/v1/tasting-notes/', include('apps.tasting.urls')),
+    path('api/v1/collection/', include('apps.collection.urls')),
 ]
