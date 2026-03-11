@@ -2,27 +2,122 @@
   {
     "model": "whisky.casktype",
     "pk": 1,
-    "fields": { "name": "Sherry", "description": "셰리 와인 숙성 캐스크. 건포도, 초콜릿, 크리스마스 케이크 향을 부여." }
+    "fields": {
+      "name": "Ex-Bourbon",
+      "description": "버번 위스키를 숙성했던 아메리칸 화이트 오크 캐스크. 위스키 숙성에 가장 많이 사용되는 캐스크. 바닐라, 캐러멜, 코코넛, 꿀 향을 부여하며 부드러운 단맛을 만든다."
+    }
   },
   {
     "model": "whisky.casktype",
     "pk": 2,
-    "fields": { "name": "Bourbon", "description": "버번 위스키 숙성 캐스크. 바닐라, 캐러멜, 코코넛 향을 부여." }
+    "fields": {
+      "name": "Ex-Sherry (Oloroso)",
+      "description": "올로로소 셰리 와인을 숙성했던 오크 캐스크. 건포도, 다크 초콜릿, 견과류, 크리스마스 케이크 향을 부여하며 색상을 진하게 만든다."
+    }
   },
   {
     "model": "whisky.casktype",
     "pk": 3,
-    "fields": { "name": "Port", "description": "포트 와인 숙성 캐스크. 붉은 과일, 베리류 향을 부여." }
+    "fields": {
+      "name": "Ex-Sherry (PX)",
+      "description": "페드로 히메네스 셰리를 숙성했던 캐스크. 매우 달콤하고 진한 건포도, 무화과, 당밀, 커피 향을 부여한다. 올로로소보다 더 달콤하고 진하다."
+    }
   },
   {
     "model": "whisky.casktype",
     "pk": 4,
-    "fields": { "name": "Virgin Oak", "description": "새 오크 캐스크. 강한 오크, 스파이시, 탄닌 향을 부여." }
+    "fields": {
+      "name": "Virgin Oak",
+      "description": "한 번도 사용하지 않은 새 아메리칸 오크 캐스크. 강한 오크, 탄닌, 바닐라, 스파이시 향을 부여하며 색상을 빠르게 진하게 만든다."
+    }
   },
   {
     "model": "whisky.casktype",
     "pk": 5,
-    "fields": { "name": "Mizunara", "description": "일본 미즈나라 오크 캐스크. 백단향, 향신료, 오리엔탈 향을 부여." }
+    "fields": {
+      "name": "Ex-Port",
+      "description": "포르투갈 포트 와인을 숙성했던 캐스크. 붉은 과일, 베리류, 자두, 달콤한 와인 향을 부여한다. 피니시 캐스크로 자주 사용."
+    }
+  },
+  {
+    "model": "whisky.casktype",
+    "pk": 6,
+    "fields": {
+      "name": "Ex-Rum",
+      "description": "럼을 숙성했던 캐스크. 달콤한 열대 과일, 바나나, 트로피컬, 사탕수수 향을 부여한다. 피니시 캐스크로 사용 시 독특한 달콤함 추가."
+    }
+  },
+  {
+    "model": "whisky.casktype",
+    "pk": 7,
+    "fields": {
+      "name": "Mizunara",
+      "description": "일본 미즈나라 오크로 만든 캐스크. 백단향, 향신료, 코코넛, 오리엔탈 스파이스 향을 부여. 매우 희귀하고 숙성이 까다로워 프리미엄 일본 위스키에 주로 사용."
+    }
+  },
+  {
+    "model": "whisky.casktype",
+    "pk": 8,
+    "fields": {
+      "name": "Ex-Wine (Red)",
+      "description": "레드 와인을 숙성했던 캐스크. 붉은 과일, 베리류, 탄닌, 와인의 풍미를 부여. 피니시 캐스크로 자주 활용."
+    }
+  },
+  {
+    "model": "whisky.casktype",
+    "pk": 9,
+    "fields": {
+      "name": "Ex-Wine (White)",
+      "description": "화이트 와인을 숙성했던 캐스크. 사과, 배, 꽃향기, 가벼운 과일 풍미를 부여. 섬세하고 가벼운 피니시에 사용."
+    }
+  },
+  {
+    "model": "whisky.casktype",
+    "pk": 10,
+    "fields": {
+      "name": "Ex-Madeira",
+      "description": "마데이라 와인을 숙성했던 캐스크. 견과류, 카라멜, 건과일, 달콤하고 산미 있는 풍미를 부여."
+    }
+  },
+  {
+    "model": "whisky.casktype",
+    "pk": 11,
+    "fields": {
+      "name": "Ex-Cognac",
+      "description": "코냑을 숙성했던 리무쟁 오크 캐스크. 꽃향기, 과일, 스파이스, 섬세한 오크 풍미를 부여. 고급 피니시 캐스크로 사용."
+    }
+  },
+  {
+    "model": "whisky.casktype",
+    "pk": 12,
+    "fields": {
+      "name": "Ex-Sauternes",
+      "description": "프랑스 소테른 귀부 와인을 숙성했던 캐스크. 꿀, 살구, 복숭아, 열대 과일의 달콤하고 풍부한 향을 부여."
+    }
+  },
+  {
+    "model": "whisky.casktype",
+    "pk": 13,
+    "fields": {
+      "name": "STR (Shaved, Toasted, Re-charred)",
+      "description": "기존 레드 와인 캐스크를 깎고, 굽고, 다시 태워 재활용한 캐스크. 와인, 과일, 스파이스, 오크가 복합적으로 어우러진 풍미를 부여."
+    }
+  },
+  {
+    "model": "whisky.casktype",
+    "pk": 14,
+    "fields": {
+      "name": "Hogshead",
+      "description": "버번 배럴을 분해해 스코틀랜드산 오크 조각을 추가해 재조립한 캐스크(약 250L). 버번 캐스크보다 크고 스탠다드 캐스크(약 500L)보다 작다. 스코틀랜드 증류소에서 가장 많이 사용하는 형태."
+    }
+  },
+  {
+    "model": "whisky.casktype",
+    "pk": 15,
+    "fields": {
+      "name": "Quarter Cask",
+      "description": "일반 배럴의 1/4 크기(약 125L)의 소형 캐스크. 작은 용량으로 위스키와 오크 접촉면이 넓어 빠른 숙성이 가능. 스파이시하고 진한 오크 풍미를 부여."
+    }
   },
   {
     "model": "whisky.whisky",
@@ -35,20 +130,35 @@
       "region": "speyside",
       "age": 12,
       "abv": 40.0,
-      "cask_types": [1, 2],
+      "cask_types": [
+        2,
+        1
+      ],
       "peat_level": "none",
       "price_tier": "mid",
-      "description": "세계에서 가장 많이 팔리는 싱글 몰트 위스키. 부드럽고 과일향이 풍부해 입문자에게 최적.",
-      "history": "1887년 윌리엄 그랜트가 설립한 글렌피딕 증류소의 대표작.",
-      "bartender_tip": "니트로 마시면 배 향이 극대화되고, 온더락으로 마시면 더욱 부드러워집니다.",
-      "pairing": ["다크 초콜릿", "배", "연어"],
+      "description": "세계에서 가장 많이 팔리는 싱글 몰트 위스키. 셰리와 버번 더블 캐스크에서 숙성되어 부드럽고 과일향이 풍부하다. 위스키 입문자에게 가장 많이 추천되는 제품.",
+      "history": "1887년 윌리엄 그랜트가 가족과 함께 스페이사이드에 설립. 가족 경영 방식을 고수하며 130년 이상의 역사를 자랑한다.",
+      "bartender_tip": "니트로 마시면 배와 꿀 향이 극대화됩니다. 온더락으로 마시면 더욱 청량하고 부드럽게 즐길 수 있어요.",
+      "pairing": [
+        "다크 초콜릿",
+        "배",
+        "연어",
+        "카망베르 치즈"
+      ],
       "serving_guide": {
         "neat": "상온에서 튤립 글라스로. 배와 꿀 향이 살아납니다.",
         "rocks": "얼음 한두 개로 차갑게. 더욱 청량하게 즐길 수 있습니다.",
         "splash": "물 한 방울로 숨겨진 꽃향기가 올라옵니다.",
         "soda": "하이볼로 즐기기에도 훌륭합니다."
       },
-      "flavor_profile": {"smoky": 10, "sweet": 70, "fruity": 80, "woody": 40, "spicy": 20, "floral": 60},
+      "flavor_profile": {
+        "smoky": 10,
+        "sweet": 70,
+        "fruity": 85,
+        "woody": 40,
+        "spicy": 20,
+        "floral": 65
+      },
       "image": "",
       "created_at": "2025-01-01T00:00:00Z",
       "updated_at": "2025-01-01T00:00:00Z"
@@ -65,20 +175,34 @@
       "region": "islay",
       "age": 10,
       "abv": 40.0,
-      "cask_types": [2],
+      "cask_types": [
+        1
+      ],
       "peat_level": "heavy",
       "price_tier": "mid",
-      "description": "아이라 위스키의 대명사. 강렬한 피트, 스모키, 해양성 향이 특징.",
-      "history": "1815년 설립. '의견이 갈리는 위스키'라는 별명을 가진 개성 강한 위스키.",
-      "bartender_tip": "니트로 마시는 것을 강력 추천. 물을 조금 추가하면 숨겨진 단맛이 올라옵니다.",
-      "pairing": ["훈제 연어", "굴", "시가"],
+      "description": "아이라 위스키의 대명사. 강렬한 피트 스모크, 요오드, 해양성 짠 내가 특징. 찰스 왕세자가 즐겨 마시는 위스키로도 유명하며 '의견이 갈리는 위스키'라는 별명을 가졌다.",
+      "history": "1815년 설립된 아이라 섬의 유서 깊은 증류소. 영국 왕실 인증(Royal Warrant)을 받은 유일한 위스키.",
+      "bartender_tip": "니트로 마시는 것을 강력 추천합니다. 물을 조금 추가하면 숨겨진 단맛과 과일향이 올라옵니다.",
+      "pairing": [
+        "훈제 연어",
+        "굴",
+        "시가",
+        "블루치즈"
+      ],
       "serving_guide": {
-        "neat": "니트로 마셔야 피트향이 극대화됩니다.",
-        "rocks": "얼음을 넣으면 스모키함이 다소 줄어듭니다.",
+        "neat": "니트로 마셔야 피트향과 스모키함이 극대화됩니다.",
+        "rocks": "얼음을 넣으면 스모키함이 다소 줄어들고 부드러워집니다.",
         "splash": "물 한 방울이 단맛과 과일향을 끌어냅니다.",
-        "soda": "추천하지 않습니다. 개성이 희석됩니다."
+        "soda": "추천하지 않습니다. 라프로익의 개성이 희석됩니다."
       },
-      "flavor_profile": {"smoky": 95, "sweet": 20, "fruity": 15, "woody": 50, "spicy": 60, "floral": 10},
+      "flavor_profile": {
+        "smoky": 95,
+        "sweet": 20,
+        "fruity": 15,
+        "woody": 50,
+        "spicy": 60,
+        "floral": 10
+      },
       "image": "",
       "created_at": "2025-01-01T00:00:00Z",
       "updated_at": "2025-01-01T00:00:00Z"
@@ -88,27 +212,2140 @@
     "model": "whisky.whisky",
     "pk": 3,
     "fields": {
-      "name": "Jim Beam White",
-      "distillery": "Jim Beam",
+      "name": "Macallan 12 Year Sherry Oak",
+      "distillery": "The Macallan",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "speyside",
+      "age": 12,
+      "abv": 40.0,
+      "cask_types": [
+        2
+      ],
+      "peat_level": "none",
+      "price_tier": "premium",
+      "description": "스페이사이드의 명품 위스키. 100% 셰리 오크 캐스크 숙성으로 풍부한 건포도, 다크 초콜릿, 오렌지 향이 특징. 위스키 컬렉터들이 가장 선호하는 브랜드 중 하나.",
+      "history": "1824년 설립된 맥캘란 증류소. 셰리 캐스크 숙성의 대명사로 위스키 경매 시장에서도 최고가를 기록하는 브랜드.",
+      "bartender_tip": "니트로 마시는 것을 권장합니다. 잔을 손으로 살짝 감싸 체온으로 데우면 셰리 향이 더욱 풍부하게 올라옵니다.",
+      "pairing": [
+        "다크 초콜릿",
+        "건포도",
+        "호두",
+        "에담 치즈"
+      ],
+      "serving_guide": {
+        "neat": "글렌케언 글라스로 니트. 셰리 캐스크의 풍미를 온전히 느낄 수 있습니다.",
+        "rocks": "얼음 한 개만 추가해 살짝 칠링하면 좋습니다.",
+        "splash": "물 몇 방울로 스파이시한 향신료 향이 올라옵니다.",
+        "soda": "권장하지 않습니다. 복잡한 풍미가 희석됩니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 80,
+        "fruity": 70,
+        "woody": 55,
+        "spicy": 45,
+        "floral": 30
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 4,
+    "fields": {
+      "name": "Ardbeg 10 Year",
+      "distillery": "Ardbeg",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "islay",
+      "age": 10,
+      "abv": 46.0,
+      "cask_types": [
+        1
+      ],
+      "peat_level": "heavy",
+      "price_tier": "mid",
+      "description": "라프로익과 함께 아이라의 쌍벽. 스모키하면서도 레몬, 라임의 시트러스 향이 공존하는 독특한 개성. 아드벡 마니아들은 '완벽한 위스키'라 부른다.",
+      "history": "1815년 설립 후 여러 차례 폐쇄와 재개장을 반복한 파란만장한 역사. 1997년 글렌모란지가 인수 후 품질이 급격히 향상됐다.",
+      "bartender_tip": "46% ABV 논칠필터드. 시트러스 향을 살리려면 니트로, 물을 조금 가해도 맛이 흐트러지지 않습니다.",
+      "pairing": [
+        "훈제 고기",
+        "굴",
+        "다크 초콜릿",
+        "블랙 올리브"
+      ],
+      "serving_guide": {
+        "neat": "강렬한 피트와 시트러스의 조화를 니트로 즐기세요.",
+        "rocks": "차갑게 하면 스모키함이 줄고 단맛이 강조됩니다.",
+        "splash": "소량의 물로 레몬향이 더욱 살아납니다.",
+        "soda": "추천하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 90,
+        "sweet": 30,
+        "fruity": 45,
+        "woody": 45,
+        "spicy": 55,
+        "floral": 15
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 5,
+    "fields": {
+      "name": "Glenlivet 12 Year",
+      "distillery": "The Glenlivet",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "speyside",
+      "age": 12,
+      "abv": 40.0,
+      "cask_types": [
+        1
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "스페이사이드의 가장 클래식한 위스키. 꽃향기, 과일향, 부드러운 단맛이 균형을 이루며 입문자에게 최적. 미국에서 가장 많이 팔리는 싱글 몰트 위스키.",
+      "history": "1824년 스코틀랜드 최초의 합법 증류소 중 하나로 설립. 조지 스미스가 설립했으며 리벳 강 계곡의 유일한 합법 증류소임을 의미한다.",
+      "bartender_tip": "입문자에게 가장 추천하는 위스키 중 하나입니다. 니트로 마시면 꽃향기와 과일향을 온전히 느낄 수 있어요.",
+      "pairing": [
+        "사과",
+        "배",
+        "꿀케이크",
+        "브리 치즈"
+      ],
+      "serving_guide": {
+        "neat": "튤립 글라스로 니트. 꽃향기가 코를 가득 채웁니다.",
+        "rocks": "얼음과 함께 청량하게 즐기기 좋습니다.",
+        "splash": "물 한 방울로 더욱 부드러워집니다.",
+        "soda": "하이볼로도 훌륭합니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 65,
+        "fruity": 80,
+        "woody": 35,
+        "spicy": 15,
+        "floral": 75
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 6,
+    "fields": {
+      "name": "Highland Park 12 Year Viking Honour",
+      "distillery": "Highland Park",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "islands",
+      "age": 12,
+      "abv": 40.0,
+      "cask_types": [
+        2,
+        1
+      ],
+      "peat_level": "light",
+      "price_tier": "mid",
+      "description": "오크니 제도에서 생산되는 균형 잡힌 위스키. 가벼운 피트향, 달콤한 헤더 꿀, 과일향이 조화를 이루며 '완벽한 균형'으로 유명하다. 피트 위스키 입문에 최적.",
+      "history": "1798년 설립된 스코틀랜드 최북단의 증류소. 자체 피트 발아 방식을 고수하는 몇 안 되는 증류소 중 하나.",
+      "bartender_tip": "가벼운 피트향이 달콤함과 어우러져 피트 위스키 입문에 딱 좋습니다.",
+      "pairing": [
+        "훈제 치즈",
+        "꿀",
+        "다크 초콜릿",
+        "살구"
+      ],
+      "serving_guide": {
+        "neat": "헤더 꿀과 가벼운 스모키향의 조화를 니트로 즐기세요.",
+        "rocks": "얼음과 함께 마시면 과일향이 강조됩니다.",
+        "splash": "물 한 방울로 꽃향기가 피어납니다.",
+        "soda": "하이볼로도 좋습니다."
+      },
+      "flavor_profile": {
+        "smoky": 35,
+        "sweet": 65,
+        "fruity": 60,
+        "woody": 50,
+        "spicy": 40,
+        "floral": 55
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 7,
+    "fields": {
+      "name": "Oban 14 Year",
+      "distillery": "Oban",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "highlands",
+      "age": 14,
+      "abv": 43.0,
+      "cask_types": [
+        1
+      ],
+      "peat_level": "light",
+      "price_tier": "premium",
+      "description": "하이랜드와 아이라 스타일의 중간. 가벼운 피트향에 바다 내음, 오렌지 껍질, 꿀 향이 어우러진다. 스코틀랜드 서해안 항구 도시에서 생산.",
+      "history": "1794년 설립된 스코틀랜드에서 가장 오래된 증류소 중 하나. 작은 항구 도시 오반의 중심에 위치하며 도시 자체가 증류소를 중심으로 발전했다.",
+      "bartender_tip": "하이랜드의 달콤함과 해안의 짠 내가 공존합니다. 니트로 마시면 복잡한 풍미를 온전히 느낄 수 있어요.",
+      "pairing": [
+        "해산물",
+        "오렌지 마멀레이드",
+        "아몬드",
+        "그뤼예르 치즈"
+      ],
+      "serving_guide": {
+        "neat": "복잡한 풍미를 위해 니트 권장.",
+        "rocks": "해안의 짠 내가 더욱 두드러집니다.",
+        "splash": "물로 달콤한 과일향이 올라옵니다.",
+        "soda": "가능하지만 권장하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 30,
+        "sweet": 60,
+        "fruity": 55,
+        "woody": 50,
+        "spicy": 35,
+        "floral": 40
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 8,
+    "fields": {
+      "name": "Glenfarclas 15 Year",
+      "distillery": "Glenfarclas",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "speyside",
+      "age": 15,
+      "abv": 46.0,
+      "cask_types": [
+        2
+      ],
+      "peat_level": "none",
+      "price_tier": "premium",
+      "description": "가족 경영 증류소의 풀 셰리 캐스크 숙성 위스키. 진한 셰리의 달콤함, 다크 프루트, 초콜릿, 오렌지 껍질이 복잡하게 어우러진 풀바디 위스키.",
+      "history": "1836년 설립 이후 그랜트 가문이 6대째 운영하는 독립 가족 경영 증류소. 100% 셰리 캐스크 숙성을 고집하며 가성비 좋은 프리미엄 위스키로 유명하다.",
+      "bartender_tip": "풀 셰리 캐스크의 진한 풍미를 니트로 즐기세요. 논칠필터드로 풍미가 더욱 풍부합니다.",
+      "pairing": [
+        "다크 초콜릿 트러플",
+        "크리스마스 케이크",
+        "블루치즈",
+        "호두"
+      ],
+      "serving_guide": {
+        "neat": "진한 셰리 풍미를 위해 니트 권장.",
+        "rocks": "얼음으로 단맛이 더욱 두드러집니다.",
+        "splash": "물 한 방울로 스파이시함이 부드러워집니다.",
+        "soda": "권장하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 85,
+        "fruity": 75,
+        "woody": 60,
+        "spicy": 50,
+        "floral": 25
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 9,
+    "fields": {
+      "name": "Bowmore 12 Year",
+      "distillery": "Bowmore",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "islay",
+      "age": 12,
+      "abv": 40.0,
+      "cask_types": [
+        2,
+        1
+      ],
+      "peat_level": "medium",
+      "price_tier": "mid",
+      "description": "아이라 위스키 중 가장 균형 잡힌 스타일. 중간 강도의 피트향에 다크 초콜릿, 열대 과일, 해양성 향이 어우러진다. 아이라 입문에 가장 적합한 위스키.",
+      "history": "1779년 설립된 아이라 섬에서 가장 오래된 증류소. 바다 바로 옆 창고에서 숙성되어 독특한 해양성 풍미가 더해진다.",
+      "bartender_tip": "아이라 위스키 중 가장 접근하기 쉽습니다. 라프로익이나 아드벡이 너무 강하다면 보모어부터 시작하세요.",
+      "pairing": [
+        "훈제 연어",
+        "다크 초콜릿",
+        "망고",
+        "체더 치즈"
+      ],
+      "serving_guide": {
+        "neat": "피트와 과일의 균형을 니트로 즐기세요.",
+        "rocks": "얼음으로 피트향이 부드러워집니다.",
+        "splash": "물로 열대 과일향이 올라옵니다.",
+        "soda": "가볍게 하이볼로도 좋습니다."
+      },
+      "flavor_profile": {
+        "smoky": 60,
+        "sweet": 45,
+        "fruity": 50,
+        "woody": 45,
+        "spicy": 40,
+        "floral": 30
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 10,
+    "fields": {
+      "name": "Balvenie 12 Year DoubleWood",
+      "distillery": "The Balvenie",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "speyside",
+      "age": 12,
+      "abv": 40.0,
+      "cask_types": [
+        1,
+        2
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "버번 캐스크 숙성 후 셰리 캐스크에서 추가 피니시. 꿀, 바닐라, 과일, 셰리의 달콤함이 층층이 쌓인 복잡한 풍미. 더블우드 방식의 대표 위스키.",
+      "history": "글렌피딕 바로 옆에 위치한 발베니 증류소. 1892년 설립 이후 직접 재배한 보리를 사용하고 자체 구리 장인이 증류기를 관리하는 전통을 고수한다.",
+      "bartender_tip": "꿀과 과일향이 풍부해 위스키 입문자에게 좋습니다. 니트로 마시면 두 캐스크의 레이어를 느낄 수 있어요.",
+      "pairing": [
+        "꿀",
+        "바닐라 케이크",
+        "말린 과일",
+        "하바티 치즈"
+      ],
+      "serving_guide": {
+        "neat": "두 캐스크의 복합적인 풍미를 니트로 즐기세요.",
+        "rocks": "얼음으로 더욱 부드럽게 즐길 수 있습니다.",
+        "splash": "물 한 방울로 꽃향기가 피어납니다.",
+        "soda": "하이볼로도 좋습니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 80,
+        "fruity": 70,
+        "woody": 50,
+        "spicy": 25,
+        "floral": 55
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 11,
+    "fields": {
+      "name": "Balvenie 14 Year Caribbean Cask",
+      "distillery": "The Balvenie",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "speyside",
+      "age": 14,
+      "abv": 43.0,
+      "cask_types": [
+        1,
+        6
+      ],
+      "peat_level": "none",
+      "price_tier": "premium",
+      "description": "버번 캐스크 14년 숙성 후 럼 캐스크 피니시. 바닐라, 트로피컬 과일, 꿀, 달콤한 럼의 풍미가 독특하게 어우러진 개성 있는 위스키.",
+      "history": "발베니의 대표적인 더블 매추레이션 라인업. 럼 캐스크 피니시로 위스키에 트로피컬한 개성을 불어넣었다.",
+      "bartender_tip": "럼을 좋아하는 분들에게 특히 추천합니다. 니트로 마시면 트로피컬한 달콤함이 극대화됩니다.",
+      "pairing": [
+        "열대 과일",
+        "코코넛 케이크",
+        "바닐라 아이스크림",
+        "화이트 초콜릿"
+      ],
+      "serving_guide": {
+        "neat": "트로피컬한 달콤함을 니트로 즐기세요.",
+        "rocks": "얼음으로 청량하게 즐길 수 있습니다.",
+        "splash": "물로 바닐라향이 더욱 살아납니다.",
+        "soda": "파인애플 주스와 섞으면 훌륭한 칵테일이 됩니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 85,
+        "fruity": 80,
+        "woody": 40,
+        "spicy": 20,
+        "floral": 45
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 12,
+    "fields": {
+      "name": "Glenfiddich 18 Year",
+      "distillery": "Glenfiddich",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "speyside",
+      "age": 18,
+      "abv": 40.0,
+      "cask_types": [
+        2,
+        1
+      ],
+      "peat_level": "none",
+      "price_tier": "premium",
+      "description": "글렌피딕 12년보다 깊고 복잡한 풍미. 오크, 서양배, 사과, 크리미한 토피 향이 풍부하다. 선물용으로 인기가 높은 프리미엄 라인.",
+      "history": "글렌피딕 증류소의 프리미엄 라인. 소형 오크 캐스크에서 추가 숙성 후 마스터 블렌더가 직접 선별한다.",
+      "bartender_tip": "니트로 마시면 복잡한 오크와 과일 풍미가 레이어를 이룹니다. 선물용으로도 최적입니다.",
+      "pairing": [
+        "다크 초콜릿",
+        "서양배 타르트",
+        "블루치즈",
+        "호두"
+      ],
+      "serving_guide": {
+        "neat": "복잡한 풍미를 위해 니트 강력 권장.",
+        "rocks": "얼음 하나로 부드럽게 즐길 수 있습니다.",
+        "splash": "물로 깊은 오크향이 올라옵니다.",
+        "soda": "권장하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 10,
+        "sweet": 75,
+        "fruity": 70,
+        "woody": 70,
+        "spicy": 35,
+        "floral": 50
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 13,
+    "fields": {
+      "name": "Glenmorangie Original 10 Year",
+      "distillery": "Glenmorangie",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "highlands",
+      "age": 10,
+      "abv": 40.0,
+      "cask_types": [
+        1
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "스코틀랜드에서 가장 키가 큰 증류기로 만든 위스키. 복숭아, 오렌지, 꽃향기가 가볍고 우아하게 펼쳐지는 하이랜드의 대표 위스키.",
+      "history": "1843년 설립. 스코틀랜드에서 가장 높은 증류기(5.14m)를 사용해 가볍고 우아한 풍미를 만들어낸다. 미국산 화이트 오크 버번 캐스크만 사용.",
+      "bartender_tip": "가볍고 우아한 풍미가 특징입니다. 니트나 물 한 방울로 꽃향기와 과일향을 즐겨보세요.",
+      "pairing": [
+        "복숭아",
+        "망고",
+        "화이트 초콜릿",
+        "브리 치즈"
+      ],
+      "serving_guide": {
+        "neat": "우아한 꽃향기와 과일향을 니트로 즐기세요.",
+        "rocks": "얼음으로 청량하게 즐기기 좋습니다.",
+        "splash": "물 한 방울로 더욱 꽃향기가 납니다.",
+        "soda": "하이볼로도 좋습니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 60,
+        "fruity": 85,
+        "woody": 35,
+        "spicy": 15,
+        "floral": 80
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 14,
+    "fields": {
+      "name": "Dalmore 12 Year",
+      "distillery": "The Dalmore",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "highlands",
+      "age": 12,
+      "abv": 40.0,
+      "cask_types": [
+        1,
+        2
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "수사슴 로고로 유명한 하이랜드 위스키. 버번 캐스크와 셰리 캐스크를 조합해 초콜릿, 오렌지, 시나몬의 풍부한 풍미를 만들어낸다.",
+      "history": "1839년 하이랜드 북부에 설립. 달모어 12는 아메리칸 화이트 오크 배럴 9년 숙성 후 3가지 다른 셰리 캐스크에서 3년 추가 숙성하는 복잡한 방식으로 만들어진다.",
+      "bartender_tip": "초콜릿과 오렌지의 조합이 인상적입니다. 니트로 마시면 복잡한 레이어를 온전히 느낄 수 있어요.",
+      "pairing": [
+        "오렌지 초콜릿",
+        "시나몬 케이크",
+        "에스프레소",
+        "고다 치즈"
+      ],
+      "serving_guide": {
+        "neat": "복잡한 풍미를 니트로 즐기세요.",
+        "rocks": "얼음으로 단맛이 강조됩니다.",
+        "splash": "물로 오렌지향이 더욱 살아납니다.",
+        "soda": "가능하지만 권장하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 75,
+        "fruity": 65,
+        "woody": 60,
+        "spicy": 50,
+        "floral": 30
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 15,
+    "fields": {
+      "name": "Talisker 10 Year",
+      "distillery": "Talisker",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "islands",
+      "age": 10,
+      "abv": 45.8,
+      "cask_types": [
+        1
+      ],
+      "peat_level": "medium",
+      "price_tier": "mid",
+      "description": "스카이 섬에서 생산되는 강렬하고 독특한 위스키. 후추, 피트, 바다 소금, 달콤한 과일이 복잡하게 얽힌 '바다의 위스키'. 로버트 루이스 스티븐슨이 최고의 위스키라고 극찬.",
+      "history": "1830년 스카이 섬에 설립된 섬 유일의 증류소. 강한 해양성 기후와 피트가 독특한 해양 풍미를 만들어낸다.",
+      "bartender_tip": "후추와 해양성 풍미가 강렬합니다. 니트로 마시면 파도가 치는 듯한 감각을 느낄 수 있어요.",
+      "pairing": [
+        "훈제 고등어",
+        "굴",
+        "블랙 페퍼 스테이크",
+        "체더 치즈"
+      ],
+      "serving_guide": {
+        "neat": "강렬한 해양성 풍미를 니트로 즐기세요.",
+        "rocks": "얼음으로 후추향이 부드러워집니다.",
+        "splash": "물로 달콤한 과일향이 올라옵니다.",
+        "soda": "가능하지만 권장하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 65,
+        "sweet": 40,
+        "fruity": 35,
+        "woody": 45,
+        "spicy": 85,
+        "floral": 20
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 16,
+    "fields": {
+      "name": "Springbank 10 Year",
+      "distillery": "Springbank",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "campbeltown",
+      "age": 10,
+      "abv": 46.0,
+      "cask_types": [
+        1,
+        2
+      ],
+      "peat_level": "light",
+      "price_tier": "mid",
+      "description": "캠벨타운의 마지막 전통 증류소. 2.5회 증류라는 독특한 방식으로 만드는 복잡한 위스키. 소금, 과일, 가벼운 피트, 오크가 균형을 이룬다.",
+      "history": "1828년 설립. 캠벨타운 지역에서 유일하게 독립 가족 경영을 유지하는 증류소. 발아부터 병입까지 모든 공정을 자체적으로 진행하는 몇 안 되는 곳.",
+      "bartender_tip": "논칠필터드, 무색소로 가장 자연스러운 위스키를 경험할 수 있습니다. 니트로 마시기를 강력 권장.",
+      "pairing": [
+        "훈제 치즈",
+        "짠 크래커",
+        "올리브",
+        "프로슈토"
+      ],
+      "serving_guide": {
+        "neat": "복잡하고 개성 있는 풍미를 니트로 즐기세요.",
+        "rocks": "얼음으로 부드러워집니다.",
+        "splash": "물로 숨겨진 풍미가 올라옵니다.",
+        "soda": "추천하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 30,
+        "sweet": 50,
+        "fruity": 55,
+        "woody": 55,
+        "spicy": 45,
+        "floral": 35
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 17,
+    "fields": {
+      "name": "Bruichladdich Classic Laddie",
+      "distillery": "Bruichladdich",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "islay",
+      "age": null,
+      "abv": 50.0,
+      "cask_types": [
+        1
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "피트가 없는 아이라 위스키의 이단아. 꽃향기, 풋사과, 보리의 향이 깨끗하고 신선하게 펼쳐진다. 아이라지만 피트향이 없어 색다른 경험.",
+      "history": "2001년 재개장한 아이라의 독립 증류소. 피트를 사용하지 않는 언피티드 아이라 위스키를 고집하며 독창적인 철학으로 위스키를 만든다.",
+      "bartender_tip": "아이라 위스키인데 피트가 없어 깜짝 놀랄 수 있어요. 신선한 보리와 꽃향기를 니트로 즐겨보세요.",
+      "pairing": [
+        "신선한 굴",
+        "화이트 피시",
+        "레몬 타르트",
+        "염소 치즈"
+      ],
+      "serving_guide": {
+        "neat": "신선하고 깨끗한 풍미를 니트로 즐기세요.",
+        "rocks": "얼음으로 더욱 청량해집니다.",
+        "splash": "물로 꽃향기가 더욱 살아납니다.",
+        "soda": "하이볼로도 훌륭합니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 45,
+        "fruity": 70,
+        "woody": 30,
+        "spicy": 20,
+        "floral": 85
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 18,
+    "fields": {
+      "name": "Johnnie Walker Black Label 12 Year",
+      "distillery": "Johnnie Walker",
+      "country": "scotland",
+      "whisky_type": "blended",
+      "region": "other",
+      "age": 12,
+      "abv": 40.0,
+      "cask_types": [
+        1,
+        2
+      ],
+      "peat_level": "light",
+      "price_tier": "mid",
+      "description": "세계에서 가장 많이 팔리는 스카치 위스키. 29개 이상의 싱글 몰트와 그레인 위스키를 블렌딩해 스모키, 달콤, 과일이 균형 잡힌 풍미. 블렌디드 위스키의 교과서.",
+      "history": "1820년 존 워커가 시작한 식료품점에서 출발. 블렌딩의 예술을 완성한 워커 가문의 역작. 블랙 라벨은 1909년 처음 출시되어 세계적인 명성을 얻었다.",
+      "bartender_tip": "온더락이나 하이볼로 즐기기 좋습니다. 칵테일 베이스로도 탁월합니다.",
+      "pairing": [
+        "스모키 바비큐",
+        "다크 초콜릿",
+        "건포도",
+        "체더 치즈"
+      ],
+      "serving_guide": {
+        "neat": "블렌딩의 복잡함을 니트로 즐기세요.",
+        "rocks": "온더락으로 마시면 더욱 부드럽습니다.",
+        "splash": "물로 스모키향이 부드러워집니다.",
+        "soda": "하이볼로 매우 좋습니다."
+      },
+      "flavor_profile": {
+        "smoky": 45,
+        "sweet": 55,
+        "fruity": 50,
+        "woody": 50,
+        "spicy": 40,
+        "floral": 30
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 19,
+    "fields": {
+      "name": "Johnnie Walker Blue Label",
+      "distillery": "Johnnie Walker",
+      "country": "scotland",
+      "whisky_type": "blended",
+      "region": "other",
+      "age": null,
+      "abv": 40.0,
+      "cask_types": [
+        1,
+        2,
+        3
+      ],
+      "peat_level": "light",
+      "price_tier": "luxury",
+      "description": "조니워커의 최상위 블렌딩. 희귀한 싱글 몰트를 포함해 깊고 복잡한 풍미. 벨벳 같은 부드러움, 스모키함, 달콤함이 완벽하게 균형을 이룬다. 특별한 날을 위한 선물용 위스키.",
+      "history": "1000개 중 1개의 캐스크만 선별한다는 전설적인 블렌딩. 조니워커 마스터 블렌더의 최고 작품으로 고급 선물 시장의 대명사.",
+      "bartender_tip": "특별한 날을 위한 위스키입니다. 니트로 천천히 음미하세요. 잔을 손으로 감싸 살짝 데워 마시면 더욱 풍부한 향이 올라옵니다.",
+      "pairing": [
+        "트러플 초콜릿",
+        "푸아그라",
+        "훈제 연어",
+        "파르미지아노 레지아노"
+      ],
+      "serving_guide": {
+        "neat": "최고급 블렌딩의 풍미를 니트로 즐기세요.",
+        "rocks": "얼음 하나로 부드럽게 즐길 수 있습니다.",
+        "splash": "물 한 방울로 더욱 복잡한 향이 펼쳐집니다.",
+        "soda": "권장하지 않습니다. 복잡한 풍미가 희석됩니다."
+      },
+      "flavor_profile": {
+        "smoky": 35,
+        "sweet": 70,
+        "fruity": 65,
+        "woody": 65,
+        "spicy": 50,
+        "floral": 55
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 20,
+    "fields": {
+      "name": "Chivas Regal 12 Year",
+      "distillery": "Chivas Brothers",
+      "country": "scotland",
+      "whisky_type": "blended",
+      "region": "other",
+      "age": 12,
+      "abv": 40.0,
+      "cask_types": [
+        1,
+        2
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "부드럽고 풍부한 스카치 블렌디드의 대명사. 꿀, 바닐라, 사과, 배의 달콤하고 부드러운 풍미. 위스키 입문자와 선물용으로 세계적으로 사랑받는 위스키.",
+      "history": "1801년 설립된 시바스 브라더스의 대표작. 스코틀랜드에서 가장 먼저 에이지드 블렌디드 위스키를 만든 선구자. 부드러운 스타일로 전 세계에서 사랑받는다.",
+      "bartender_tip": "부드럽고 달콤해서 위스키 입문자에게 최적입니다. 온더락이나 하이볼로 부담 없이 즐겨보세요.",
+      "pairing": [
+        "사과 타르트",
+        "꿀 케이크",
+        "아몬드",
+        "마일드 체더"
+      ],
+      "serving_guide": {
+        "neat": "부드러운 풍미를 니트로 즐기세요.",
+        "rocks": "온더락으로 마시면 더욱 부드럽습니다.",
+        "splash": "물로 꿀향이 더욱 살아납니다.",
+        "soda": "하이볼로 매우 좋습니다."
+      },
+      "flavor_profile": {
+        "smoky": 10,
+        "sweet": 75,
+        "fruity": 70,
+        "woody": 40,
+        "spicy": 20,
+        "floral": 50
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 21,
+    "fields": {
+      "name": "Maker's Mark",
+      "distillery": "Maker's Mark",
       "country": "usa",
       "whisky_type": "bourbon",
       "region": "kentucky",
       "age": null,
-      "abv": 40.0,
-      "cask_types": [4],
+      "abv": 45.0,
+      "cask_types": [
+        4
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "붉은 왁스 씰로 유명한 프리미엄 버번. 밀을 사용해 라이 대신 부드럽고 달콤한 풍미가 특징. 바닐라, 캐러멜, 오크의 클래식한 버번 프로파일.",
+      "history": "1953년 빌 사무엘스가 설립. 손으로 직접 씰링하는 붉은 왁스가 트레이드마크. 소량 생산 방식을 고수하며 밀 레시피로 부드러운 버번을 만든다.",
+      "bartender_tip": "온더락이나 올드 패션드 칵테일에 탁월합니다. 니트로 마셔도 부드럽고 달콤해서 버번 입문에 딱입니다.",
+      "pairing": [
+        "바비큐 립",
+        "피칸 파이",
+        "버터스카치",
+        "체다 치즈"
+      ],
+      "serving_guide": {
+        "neat": "바닐라와 캐러멜 향을 니트로 즐기세요.",
+        "rocks": "온더락으로 마시면 더욱 부드러워집니다.",
+        "splash": "물로 오크향이 더 두드러집니다.",
+        "soda": "진저에일과 매우 잘 어울립니다."
+      },
+      "flavor_profile": {
+        "smoky": 10,
+        "sweet": 80,
+        "fruity": 35,
+        "woody": 75,
+        "spicy": 30,
+        "floral": 20
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 22,
+    "fields": {
+      "name": "Woodford Reserve",
+      "distillery": "Woodford Reserve",
+      "country": "usa",
+      "whisky_type": "bourbon",
+      "region": "kentucky",
+      "age": null,
+      "abv": 43.2,
+      "cask_types": [
+        4
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "켄터키를 대표하는 프리미엄 스몰 배치 버번. 체리, 초콜릿, 오렌지 향이 풍부하고 스파이시한 라이의 복잡함이 공존. 켄터키 더비 공식 버번.",
+      "history": "1812년에 설립된 역사 깊은 증류소. 국립 사적지로 지정된 아름다운 석조 건물에서 전통 구리 단식 증류기를 사용해 소량 생산한다.",
+      "bartender_tip": "맨해튼이나 올드 패션드 칵테일의 베이스로 최고입니다. 니트로 마시면 복잡한 풍미의 레이어를 느낄 수 있어요.",
+      "pairing": [
+        "다크 초콜릿",
+        "체리",
+        "피칸",
+        "스모키 바비큐"
+      ],
+      "serving_guide": {
+        "neat": "복잡한 풍미를 위해 니트 권장.",
+        "rocks": "온더락으로 마시면 달콤함이 강조됩니다.",
+        "splash": "물로 스파이시함이 부드러워집니다.",
+        "soda": "콜라와 잘 어울립니다."
+      },
+      "flavor_profile": {
+        "smoky": 15,
+        "sweet": 70,
+        "fruity": 60,
+        "woody": 70,
+        "spicy": 55,
+        "floral": 25
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 23,
+    "fields": {
+      "name": "Wild Turkey 101",
+      "distillery": "Wild Turkey",
+      "country": "usa",
+      "whisky_type": "bourbon",
+      "region": "kentucky",
+      "age": null,
+      "abv": 50.5,
+      "cask_types": [
+        4
+      ],
       "peat_level": "none",
       "price_tier": "budget",
-      "description": "세계에서 가장 많이 팔리는 버번 위스키. 바닐라와 캐러멜의 달콤함이 특징.",
-      "history": "1795년부터 시작된 빔 가문의 역사를 이어받은 버번의 대명사.",
-      "bartender_tip": "하이볼이나 콜라와 섞어 마시기 좋습니다. 온더락으로도 훌륭합니다.",
-      "pairing": ["바비큐", "옥수수빵", "피칸"],
+      "description": "101 프루프(50.5%)의 강렬한 버번. 진한 바닐라, 캐러멜, 스파이시 라이, 오크의 풍미가 폭발적으로 펼쳐진다. 가성비 최고의 고도수 버번.",
+      "history": "1940년대부터 생산된 켄터키의 대표 버번. 지미 러셀 마스터 디스틸러가 60년 이상 품질을 관리해온 전통 있는 브랜드.",
+      "bartender_tip": "높은 도수로 칵테일 베이스로 탁월합니다. 올드 패션드나 위스키 사워에 넣으면 풍미가 강렬하게 살아납니다. 니트로 마셔도 충분한 개성이 있습니다.",
+      "pairing": [
+        "바비큐 브리스킷",
+        "피칸 파이",
+        "시나몬 번",
+        "숙성 체더"
+      ],
       "serving_guide": {
-        "neat": "바닐라와 오크 향을 온전히 느낄 수 있습니다.",
-        "rocks": "얼음과 함께 마시면 더욱 부드러워집니다.",
-        "splash": "물을 조금 추가하면 캐러멜 향이 강해집니다.",
+        "neat": "강렬한 풍미를 니트로 즐기세요.",
+        "rocks": "온더락으로 마시면 균형잡힌 풍미가 됩니다.",
+        "splash": "물로 도수를 낮추면 더욱 편하게 즐길 수 있습니다.",
         "soda": "콜라나 진저에일과 잘 어울립니다."
       },
-      "flavor_profile": {"smoky": 10, "sweet": 75, "fruity": 40, "woody": 70, "spicy": 45, "floral": 20},
+      "flavor_profile": {
+        "smoky": 15,
+        "sweet": 65,
+        "fruity": 30,
+        "woody": 80,
+        "spicy": 75,
+        "floral": 15
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 24,
+    "fields": {
+      "name": "Russell's Reserve 10 Year",
+      "distillery": "Wild Turkey",
+      "country": "usa",
+      "whisky_type": "bourbon",
+      "region": "kentucky",
+      "age": 10,
+      "abv": 45.0,
+      "cask_types": [
+        4
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "와일드터키 마스터 디스틸러 지미 러셀과 그의 아들 에디의 이름을 딴 프리미엄 스몰 배치 버번. 풍부한 바닐라, 카라멜, 체리, 오크의 복잡한 풍미.",
+      "history": "와일드터키 레거시를 잇는 프리미엄 라인. 10년 숙성으로 깊이 있는 풍미를 완성했으며, 러셀 부자의 수십 년 노하우가 담긴 작품.",
+      "bartender_tip": "와일드터키 101보다 부드럽고 복잡합니다. 니트나 온더락으로 즐기면 풍부한 풍미를 온전히 느낄 수 있어요.",
+      "pairing": [
+        "다크 초콜릿",
+        "체리 파이",
+        "훈제 바비큐",
+        "숙성 고다"
+      ],
+      "serving_guide": {
+        "neat": "풍부한 풍미를 니트로 즐기세요.",
+        "rocks": "온더락으로 마시면 달콤함이 강조됩니다.",
+        "splash": "물로 과일향이 더욱 살아납니다.",
+        "soda": "콜라와 잘 어울립니다."
+      },
+      "flavor_profile": {
+        "smoky": 10,
+        "sweet": 75,
+        "fruity": 50,
+        "woody": 75,
+        "spicy": 60,
+        "floral": 20
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 25,
+    "fields": {
+      "name": "Buffalo Trace",
+      "distillery": "Buffalo Trace",
+      "country": "usa",
+      "whisky_type": "bourbon",
+      "region": "kentucky",
+      "age": null,
+      "abv": 45.0,
+      "cask_types": [
+        4
+      ],
+      "peat_level": "none",
+      "price_tier": "budget",
+      "description": "미국에서 가장 오래된 연속 증류소 중 하나에서 생산. 달콤한 바닐라, 민트, 몰라세스의 균형 잡힌 풍미. 가성비 최고의 버번 중 하나.",
+      "history": "1773년부터 증류가 시작된 역사적인 증류소. 금주령 시절에도 의료용으로 생산을 이어간 유일한 곳 중 하나. 버팔로 떼가 건넌 고대 트레일에서 이름을 따왔다.",
+      "bartender_tip": "가성비 최고의 버번입니다. 니트, 온더락, 칵테일 어디에도 잘 어울려요.",
+      "pairing": [
+        "바닐라 아이스크림",
+        "피칸",
+        "바비큐",
+        "마일드 체더"
+      ],
+      "serving_guide": {
+        "neat": "달콤한 바닐라 풍미를 니트로 즐기세요.",
+        "rocks": "온더락으로 청량하게 즐기기 좋습니다.",
+        "splash": "물로 민트향이 더욱 살아납니다.",
+        "soda": "진저에일이나 콜라와 잘 어울립니다."
+      },
+      "flavor_profile": {
+        "smoky": 10,
+        "sweet": 75,
+        "fruity": 40,
+        "woody": 65,
+        "spicy": 45,
+        "floral": 30
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 26,
+    "fields": {
+      "name": "Bulleit Bourbon",
+      "distillery": "Bulleit",
+      "country": "usa",
+      "whisky_type": "bourbon",
+      "region": "kentucky",
+      "age": null,
+      "abv": 45.0,
+      "cask_types": [
+        4
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "높은 라이 함량(28%)으로 스파이시하고 드라이한 개성이 강한 버번. 매콤한 호밀향, 오크, 바닐라의 복잡한 조합으로 칵테일에 특히 잘 어울린다.",
+      "history": "1987년 오거스터스 불릿의 19세기 레시피를 재현해 탄생. 높은 라이 비율이 차별화된 스파이시 프로파일을 만들어낸다.",
+      "bartender_tip": "높은 라이 함량으로 맨해튼이나 올드 패션드에 최적입니다. 니트로 마시면 스파이시한 개성을 온전히 느낄 수 있어요.",
+      "pairing": [
+        "스파이시 바비큐",
+        "다크 초콜릿",
+        "블랙 페퍼 치즈",
+        "피칸"
+      ],
+      "serving_guide": {
+        "neat": "스파이시한 라이 풍미를 니트로 즐기세요.",
+        "rocks": "온더락으로 마시면 부드러워집니다.",
+        "splash": "물로 바닐라향이 더욱 살아납니다.",
+        "soda": "진저에일과 잘 어울립니다."
+      },
+      "flavor_profile": {
+        "smoky": 10,
+        "sweet": 55,
+        "fruity": 30,
+        "woody": 70,
+        "spicy": 80,
+        "floral": 15
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 27,
+    "fields": {
+      "name": "Jack Daniel's Old No.7",
+      "distillery": "Jack Daniel's",
+      "country": "usa",
+      "whisky_type": "tennessee",
+      "region": "tennessee",
+      "age": null,
+      "abv": 40.0,
+      "cask_types": [
+        4
+      ],
+      "peat_level": "none",
+      "price_tier": "budget",
+      "description": "세계에서 가장 많이 팔리는 아메리칸 위스키. 링컨 카운티 프로세스(숯 여과)로 특유의 부드럽고 달콤한 풍미. 바닐라, 캐러멜, 가벼운 스모크.",
+      "history": "1866년 설립된 미국 최초의 공식 등록 증류소. 잭 다니엘이 메이플 숯으로 여과하는 링컨 카운티 프로세스를 개발해 독특한 테네시 위스키를 만들었다.",
+      "bartender_tip": "콜라와 함께 잭앤콕으로 즐기거나 온더락으로 부담없이 마실 수 있습니다. 위스키 입문에 가장 대중적인 선택.",
+      "pairing": [
+        "바비큐",
+        "버거",
+        "체리 콜라",
+        "나초"
+      ],
+      "serving_guide": {
+        "neat": "달콤하고 부드러운 풍미를 니트로 즐기세요.",
+        "rocks": "온더락으로 청량하게 즐기기 좋습니다.",
+        "splash": "물로 더욱 부드러워집니다.",
+        "soda": "콜라와 최고의 조합입니다. 잭앤콕!"
+      },
+      "flavor_profile": {
+        "smoky": 20,
+        "sweet": 75,
+        "fruity": 30,
+        "woody": 60,
+        "spicy": 25,
+        "floral": 20
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 28,
+    "fields": {
+      "name": "Jameson",
+      "distillery": "Jameson",
+      "country": "ireland",
+      "whisky_type": "single_pot_still",
+      "region": "other",
+      "age": null,
+      "abv": 40.0,
+      "cask_types": [
+        2,
+        1
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "세계에서 가장 많이 팔리는 아이리시 위스키. 트리플 디스틸드 방식으로 매우 부드럽고 가벼운 풍미. 바닐라, 꿀, 가벼운 과일향이 특징으로 위스키 입문에 최적.",
+      "history": "1780년 존 제임슨이 더블린에 설립. 트리플 디스틸드 방식으로 부드러운 풍미를 완성. 아이리시 위스키 부흥을 이끈 선두주자.",
+      "bartender_tip": "아이리시 커피의 베이스로 완벽합니다. 진저에일과 함께 마시면 청량하고 부드럽게 즐길 수 있어요.",
+      "pairing": [
+        "아이리시 커피",
+        "사과",
+        "꿀 케이크",
+        "마일드 치즈"
+      ],
+      "serving_guide": {
+        "neat": "부드럽고 가벼운 풍미를 니트로 즐기세요.",
+        "rocks": "온더락으로 마시면 더욱 청량합니다.",
+        "splash": "물로 마셔도 좋습니다.",
+        "soda": "진저에일과 최고의 궁합입니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 60,
+        "fruity": 55,
+        "woody": 30,
+        "spicy": 20,
+        "floral": 45
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 29,
+    "fields": {
+      "name": "Redbreast 12 Year",
+      "distillery": "Redbreast",
+      "country": "ireland",
+      "whisky_type": "single_pot_still",
+      "region": "other",
+      "age": 12,
+      "abv": 40.0,
+      "cask_types": [
+        1,
+        2
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "아이리시 싱글 팟 스틸 위스키의 최고봉. 전통 팟 스틸 방식으로 만든 풍부하고 묵직한 풍미. 셰리 캐스크의 달콤함, 과일, 스파이스가 복잡하게 어우러진다.",
+      "history": "1903년부터 생산된 아이리시 위스키의 보석. 팟 스틸 방식은 아이리시 위스키만의 독특한 전통. 레드브레스트는 아이리시 싱글 팟 스틸의 부활을 이끌었다.",
+      "bartender_tip": "아이리시 위스키 중 가장 복잡하고 풍부한 풍미를 가집니다. 니트로 마셔야 그 진가를 알 수 있어요.",
+      "pairing": [
+        "다크 초콜릿",
+        "건포도 케이크",
+        "헤이즐넛",
+        "아이리시 체더"
+      ],
+      "serving_guide": {
+        "neat": "복잡한 팟 스틸 풍미를 니트로 즐기세요.",
+        "rocks": "얼음으로 부드럽게 즐길 수 있습니다.",
+        "splash": "물로 숨겨진 스파이스가 올라옵니다.",
+        "soda": "가능하지만 권장하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 65,
+        "fruity": 70,
+        "woody": 55,
+        "spicy": 55,
+        "floral": 40
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 30,
+    "fields": {
+      "name": "Green Spot",
+      "distillery": "Midleton",
+      "country": "ireland",
+      "whisky_type": "single_pot_still",
+      "region": "other",
+      "age": null,
+      "abv": 40.0,
+      "cask_types": [
+        1,
+        2
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "아이리시 싱글 팟 스틸의 숨겨진 보석. 신선한 허브, 사과, 바닐라, 가벼운 스파이스의 생기 넘치는 풍미. 더블린 와인 상인 미첼이 자체 선별한 특별한 아이리시 위스키.",
+      "history": "미첼 앤 선 와인 상인이 미들턴 증류소에서 자체 선별하는 스팟 시리즈의 하나. 수십 년 전통의 스팟 시리즈는 아이리시 싱글 팟 스틸의 진수를 보여준다.",
+      "bartender_tip": "생기 넘치는 허브와 과일향이 매력적입니다. 니트나 물 한 방울로 신선한 풍미를 즐겨보세요.",
+      "pairing": [
+        "그린 애플",
+        "신선한 허브 샐러드",
+        "라이트 치즈",
+        "굴"
+      ],
+      "serving_guide": {
+        "neat": "신선한 허브와 과일향을 니트로 즐기세요.",
+        "rocks": "얼음으로 더욱 청량해집니다.",
+        "splash": "물로 허브향이 더욱 살아납니다.",
+        "soda": "진저에일과 잘 어울립니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 55,
+        "fruity": 75,
+        "woody": 40,
+        "spicy": 45,
+        "floral": 60
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 31,
+    "fields": {
+      "name": "Hibiki Japanese Harmony",
+      "distillery": "Suntory",
+      "country": "japan",
+      "whisky_type": "blended",
+      "region": "other",
+      "age": null,
+      "abv": 43.0,
+      "cask_types": [
+        2,
+        1,
+        7
+      ],
+      "peat_level": "none",
+      "price_tier": "premium",
+      "description": "산토리의 대표 블렌디드 재패니즈 위스키. 야마자키, 하쿠슈, 치타 원액을 블렌딩. 꽃향기, 과일향, 부드러운 오크가 완벽하게 조화된 섬세한 위스키.",
+      "history": "1989년 산토리 창업 90주년 기념으로 출시. 24면 병은 일본의 24절기를 상징하며 뛰어난 디자인으로도 수많은 상을 받았다.",
+      "bartender_tip": "섬세한 풍미를 위해 니트 또는 미즈와리(물과 함께)를 추천합니다. 일본식 하이볼로 즐겨도 탁월합니다.",
+      "pairing": [
+        "스시",
+        "와규",
+        "화이트 초콜릿",
+        "유자"
+      ],
+      "serving_guide": {
+        "neat": "섬세한 꽃향기와 과일향을 니트로 즐기세요.",
+        "rocks": "온더락으로 부드럽게 즐길 수 있습니다.",
+        "splash": "미즈와리로 마시면 섬세한 향이 더욱 살아납니다.",
+        "soda": "일본식 하이볼로 즐기면 탄산이 향을 끌어올립니다."
+      },
+      "flavor_profile": {
+        "smoky": 10,
+        "sweet": 65,
+        "fruity": 70,
+        "woody": 45,
+        "spicy": 25,
+        "floral": 80
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 32,
+    "fields": {
+      "name": "Hakushu 12 Year",
+      "distillery": "Suntory",
+      "country": "japan",
+      "whisky_type": "single_malt",
+      "region": "other",
+      "age": 12,
+      "abv": 43.0,
+      "cask_types": [
+        1
+      ],
+      "peat_level": "light",
+      "price_tier": "premium",
+      "description": "일본 남알프스 숲 속 증류소의 싱글 몰트. 신선한 허브, 그린 애플, 가벼운 스모크가 특징인 '숲의 위스키'. 야마자키와 함께 산토리의 양대 산맥.",
+      "history": "1973년 야마나시현 하쿠슈에 설립. 해발 700m의 맑은 공기와 물이 신선하고 독특한 풍미를 만든다. 생산량이 적어 희귀성이 높다.",
+      "bartender_tip": "신선한 허브향을 살리려면 니트나 미즈와리를 추천합니다. 여름에 하이볼로 마시면 청량감이 극대화됩니다.",
+      "pairing": [
+        "화이트 아스파라거스",
+        "그린 샐러드",
+        "라이트 스시",
+        "허브 치즈"
+      ],
+      "serving_guide": {
+        "neat": "신선한 허브와 그린 애플향을 니트로 즐기세요.",
+        "rocks": "온더락으로 마시면 더욱 청량합니다.",
+        "splash": "물로 허브향이 더욱 살아납니다.",
+        "soda": "하이볼로 마시면 여름에 최고입니다."
+      },
+      "flavor_profile": {
+        "smoky": 25,
+        "sweet": 45,
+        "fruity": 65,
+        "woody": 40,
+        "spicy": 30,
+        "floral": 70
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 33,
+    "fields": {
+      "name": "Yamazaki 12 Year",
+      "distillery": "Suntory",
+      "country": "japan",
+      "whisky_type": "single_malt",
+      "region": "other",
+      "age": 12,
+      "abv": 43.0,
+      "cask_types": [
+        2,
+        7,
+        1
+      ],
+      "peat_level": "none",
+      "price_tier": "premium",
+      "description": "일본 최초의 몰트 위스키 증류소의 대표작. 섬세한 꽃향기, 복숭아, 파인애플, 코코넛, 바닐라의 복잡하고 우아한 풍미. 세계 최고의 위스키 중 하나로 자주 선정.",
+      "history": "1923년 산토리 창업자 토리이 신지로가 야마자키에 설립한 일본 최초의 몰트 위스키 증류소. 수질이 뛰어난 텐노야마 기슭에 위치해 섬세한 풍미를 만들어낸다.",
+      "bartender_tip": "일본 위스키의 정수를 경험할 수 있습니다. 니트로 천천히 음미하거나 미즈와리로 즐기세요.",
+      "pairing": [
+        "스시",
+        "가이세키 요리",
+        "화이트 초콜릿",
+        "유자 디저트"
+      ],
+      "serving_guide": {
+        "neat": "복잡하고 우아한 풍미를 니트로 즐기세요.",
+        "rocks": "얼음으로 부드럽게 즐길 수 있습니다.",
+        "splash": "미즈와리로 마시면 섬세한 향이 더욱 살아납니다.",
+        "soda": "하이볼로도 훌륭합니다."
+      },
+      "flavor_profile": {
+        "smoky": 10,
+        "sweet": 70,
+        "fruity": 80,
+        "woody": 50,
+        "spicy": 25,
+        "floral": 85
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 34,
+    "fields": {
+      "name": "Nikka From The Barrel",
+      "distillery": "Nikka",
+      "country": "japan",
+      "whisky_type": "blended",
+      "region": "other",
+      "age": null,
+      "abv": 51.4,
+      "cask_types": [
+        2,
+        1
+      ],
+      "peat_level": "light",
+      "price_tier": "mid",
+      "description": "51.4%의 높은 도수와 뛰어난 품질 대비 가격으로 세계적인 명성. 몰트와 그레인의 완벽한 블렌딩으로 풍부하고 복잡한 풍미. 일본 위스키 가성비 1위.",
+      "history": "닛카 위스키의 대표 블렌디드. 높은 도수와 뛰어난 품질로 전 세계 위스키 애호가들 사이에서 '가성비 최고의 일본 위스키'로 불린다.",
+      "bartender_tip": "높은 도수지만 실제로는 매우 균형 잡혀 있습니다. 니트나 하이볼로 즐기면 진가를 알 수 있어요.",
+      "pairing": [
+        "야키토리",
+        "라멘",
+        "다크 초콜릿",
+        "숙성 치즈"
+      ],
+      "serving_guide": {
+        "neat": "풍부하고 복잡한 풍미를 니트로 즐기세요.",
+        "rocks": "얼음으로 부드럽게 즐길 수 있습니다.",
+        "splash": "물로 도수를 낮추면 더욱 편하게 즐길 수 있습니다.",
+        "soda": "일본식 하이볼로 최고입니다."
+      },
+      "flavor_profile": {
+        "smoky": 20,
+        "sweet": 65,
+        "fruity": 60,
+        "woody": 55,
+        "spicy": 50,
+        "floral": 55
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 35,
+    "fields": {
+      "name": "Kavalan Solist Vinho Barrique",
+      "distillery": "Kavalan",
+      "country": "taiwan",
+      "whisky_type": "single_malt",
+      "region": "other",
+      "age": null,
+      "abv": 57.8,
+      "cask_types": [
+        8,
+        1
+      ],
+      "peat_level": "none",
+      "price_tier": "luxury",
+      "description": "대만의 열대 기후에서 빠르게 숙성된 카발란의 최상위 라인. 와인 캐스크에서 싱글 캐스크 병입. 열대 과일, 꽃향기, 오크의 풍부하고 복잡한 풍미.",
+      "history": "2006년 설립된 대만 카발란 증류소. 더운 기후로 일반 스코틀랜드보다 3-4배 빠른 숙성이 이루어진다. 세계 여러 경연에서 스코틀랜드 위스키를 꺾고 1위를 차지한 파란만장한 역사.",
+      "bartender_tip": "높은 도수지만 물을 조금 가하면 열대 과일의 폭발적인 향이 올라옵니다. 니트로 소량씩 음미해보세요.",
+      "pairing": [
+        "망고 디저트",
+        "파인애플",
+        "화이트 초콜릿",
+        "크림 치즈"
+      ],
+      "serving_guide": {
+        "neat": "강렬한 열대 과일 풍미를 니트로 즐기세요.",
+        "rocks": "얼음으로 부드럽게 즐길 수 있습니다.",
+        "splash": "물 한 방울로 향이 폭발적으로 올라옵니다.",
+        "soda": "권장하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 10,
+        "sweet": 80,
+        "fruity": 90,
+        "woody": 55,
+        "spicy": 30,
+        "floral": 75
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 36,
+    "fields": {
+      "name": "Amrut Fusion",
+      "distillery": "Amrut",
+      "country": "india",
+      "whisky_type": "single_malt",
+      "region": "other",
+      "age": null,
+      "abv": 50.0,
+      "cask_types": [
+        1
+      ],
+      "peat_level": "medium",
+      "price_tier": "mid",
+      "description": "인도 몰트와 스코틀랜드 피티드 몰트를 블렌딩한 독특한 인도 싱글 몰트. 스파이시, 피트, 열대 과일, 오크의 독창적인 풍미. '세계 3대 위스키' 선정으로 인도 위스키를 세계에 알렸다.",
+      "history": "방갈로르의 암루트 증류소가 2004년 출시. 인도의 더운 기후에서 빠른 숙성이 이루어지며 히말라야 보리와 스코틀랜드 피티드 보리를 사용한다.",
+      "bartender_tip": "인도 위스키의 놀라운 품질을 경험할 수 있습니다. 니트로 마시면 독특한 스파이시함과 피트의 조합을 즐길 수 있어요.",
+      "pairing": [
+        "인도 향신료 요리",
+        "다크 초콜릿",
+        "망고",
+        "숙성 치즈"
+      ],
+      "serving_guide": {
+        "neat": "독특한 풍미를 니트로 즐기세요.",
+        "rocks": "얼음으로 부드럽게 즐길 수 있습니다.",
+        "splash": "물로 스파이시함이 부드러워집니다.",
+        "soda": "가능하지만 권장하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 45,
+        "sweet": 50,
+        "fruity": 60,
+        "woody": 55,
+        "spicy": 70,
+        "floral": 30
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 37,
+    "fields": {
+      "name": "Macallan 18 Year Sherry Oak",
+      "distillery": "The Macallan",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "speyside",
+      "age": 18,
+      "abv": 43.0,
+      "cask_types": [
+        2
+      ],
+      "peat_level": "none",
+      "price_tier": "luxury",
+      "description": "맥캘란의 아이콘적인 18년 셰리 오크. 깊고 복잡한 건포도, 다크 초콜릿, 오렌지 껍질, 생강의 풍미. 스카치 위스키 중 가장 인정받는 고숙성 셰리 위스키.",
+      "history": "100% 스페인 오크 셰리 캐스크에서 18년 숙성. 맥캘란의 최고 전통을 보여주는 제품으로 수집가들 사이에서 매우 높은 가치를 인정받는다.",
+      "bartender_tip": "특별한 날을 위해 아껴두세요. 니트로 천천히 음미하면 18년의 시간이 만들어낸 복잡함을 느낄 수 있습니다.",
+      "pairing": [
+        "고급 다크 초콜릿",
+        "트러플",
+        "시가",
+        "파르미지아노"
+      ],
+      "serving_guide": {
+        "neat": "18년의 깊이를 니트로 즐기세요.",
+        "rocks": "얼음 하나로 더욱 부드럽게.",
+        "splash": "물 한 방울이면 충분합니다.",
+        "soda": "절대 권장하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 85,
+        "fruity": 75,
+        "woody": 70,
+        "spicy": 55,
+        "floral": 35
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 38,
+    "fields": {
+      "name": "Aberlour A'bunadh",
+      "distillery": "Aberlour",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "speyside",
+      "age": null,
+      "abv": 61.2,
+      "cask_types": [
+        3
+      ],
+      "peat_level": "none",
+      "price_tier": "premium",
+      "description": "배치별로 다른 도수의 캐스크 스트렝스 PX 셰리 캐스크 숙성 위스키. 극도로 진한 달콤함, 건포도, 다크 초콜릿, 시나몬, 생강의 폭발적인 풍미.",
+      "history": "게일어로 '근원'을 뜻하는 아부나. 아벨라워 증류소의 배치 생산 방식으로 매 배치마다 도수와 풍미가 조금씩 다르다. PX 셰리 캐스크만 사용하는 독특한 스타일.",
+      "bartender_tip": "캐스크 스트렝스라 반드시 물을 조금 가해서 마셔보세요. 물이 진한 달콤함을 열어줍니다.",
+      "pairing": [
+        "진한 다크 초콜릿",
+        "크리스마스 케이크",
+        "에스프레소",
+        "블루치즈"
+      ],
+      "serving_guide": {
+        "neat": "소량 테이스팅으로 강렬한 풍미를 경험하세요.",
+        "rocks": "얼음으로 도수를 낮출 수 있습니다.",
+        "splash": "물 몇 방울이 필수입니다. 달콤함이 폭발합니다.",
+        "soda": "권장하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 95,
+        "fruity": 80,
+        "woody": 65,
+        "spicy": 70,
+        "floral": 20
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 39,
+    "fields": {
+      "name": "Glenfiddich 21 Year Gran Reserva",
+      "distillery": "Glenfiddich",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "speyside",
+      "age": 21,
+      "abv": 40.0,
+      "cask_types": [
+        1,
+        6
+      ],
+      "peat_level": "none",
+      "price_tier": "luxury",
+      "description": "21년 숙성 후 카리브해 럼 캐스크에서 피니시. 열대 과일, 바닐라, 오크, 달콤한 럼의 복잡하고 우아한 풍미. 글렌피딕의 최고급 라인.",
+      "history": "글렌피딕의 그란 레세르바 라인. 21년의 숙성 후 카리브해 럼 캐스크에서 추가 마투레이션을 거쳐 독특한 트로피컬 풍미를 완성한다.",
+      "bartender_tip": "니트로 천천히 음미하세요. 21년의 시간과 럼 캐스크 피니시가 만들어낸 복잡한 풍미를 느낄 수 있습니다.",
+      "pairing": [
+        "트로피컬 과일",
+        "화이트 초콜릿",
+        "크렘 브륄레",
+        "마스카포네"
+      ],
+      "serving_guide": {
+        "neat": "복잡하고 우아한 풍미를 니트로 즐기세요.",
+        "rocks": "얼음 하나로 부드럽게.",
+        "splash": "물 한 방울로 럼 풍미가 더욱 살아납니다.",
+        "soda": "권장하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 85,
+        "fruity": 80,
+        "woody": 65,
+        "spicy": 30,
+        "floral": 55
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 40,
+    "fields": {
+      "name": "Laphroaig Quarter Cask",
+      "distillery": "Laphroaig",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "islay",
+      "age": null,
+      "abv": 48.0,
+      "cask_types": [
+        1,
+        15
+      ],
+      "peat_level": "heavy",
+      "price_tier": "mid",
+      "description": "쿼터 캐스크로 빠른 숙성. 라프로익 10년보다 더 진하고 달콤한 바닐라, 코코넛이 강렬한 피트 스모크와 어우러진다. 48% 논칠필터드로 더욱 풍부한 풍미.",
+      "history": "18세기 밀수꾼들이 작은 캐스크를 사용하던 전통을 재현. 쿼터 캐스크의 큰 접촉면이 빠른 숙성을 가능하게 해 풍부한 오크와 바닐라 풍미를 더한다.",
+      "bartender_tip": "라프로익 입문이라면 10년보다 이쪽이 달콤함이 더해져 접근하기 좋습니다. 니트로 마시기를 권장합니다.",
+      "pairing": [
+        "훈제 연어",
+        "코코넛 디저트",
+        "다크 초콜릿",
+        "카망베르"
+      ],
+      "serving_guide": {
+        "neat": "강렬한 피트와 달콤함의 조화를 니트로 즐기세요.",
+        "rocks": "얼음으로 피트향이 부드러워집니다.",
+        "splash": "물 한 방울로 바닐라와 코코넛 향이 살아납니다.",
+        "soda": "추천하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 90,
+        "sweet": 45,
+        "fruity": 20,
+        "woody": 60,
+        "spicy": 55,
+        "floral": 15
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 41,
+    "fields": {
+      "name": "Knob Creek 9 Year",
+      "distillery": "Knob Creek",
+      "country": "usa",
+      "whisky_type": "bourbon",
+      "region": "kentucky",
+      "age": 9,
+      "abv": 50.0,
+      "cask_types": [
+        4
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "짐 빔의 소배치 프리미엄 라인. 9년 숙성으로 깊은 오크, 진한 바닐라, 캐러멜, 스파이시한 풍미. 금주령 이전 시대의 버번 스타일을 재현.",
+      "history": "에이브러햄 링컨의 아버지가 살았던 노브 크릭에서 이름을 따왔다. 짐 빔의 소배치 컬렉션의 일원으로 금주령 이전 시대의 풀 플레이버 버번을 재현한다.",
+      "bartender_tip": "풍부하고 진한 버번을 원한다면 이 위스키를 선택하세요. 니트나 온더락으로 즐기면 깊은 오크 풍미를 느낄 수 있습니다.",
+      "pairing": [
+        "스모키 바비큐",
+        "피칸 파이",
+        "진한 초콜릿",
+        "숙성 체더"
+      ],
+      "serving_guide": {
+        "neat": "풍부한 오크와 캐러멜을 니트로 즐기세요.",
+        "rocks": "온더락으로 부드럽게 즐길 수 있습니다.",
+        "splash": "물로 복잡한 풍미가 펼쳐집니다.",
+        "soda": "진저에일과 잘 어울립니다."
+      },
+      "flavor_profile": {
+        "smoky": 15,
+        "sweet": 70,
+        "fruity": 30,
+        "woody": 85,
+        "spicy": 65,
+        "floral": 15
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 42,
+    "fields": {
+      "name": "Four Roses Single Barrel",
+      "distillery": "Four Roses",
+      "country": "usa",
+      "whisky_type": "bourbon",
+      "region": "kentucky",
+      "age": null,
+      "abv": 50.0,
+      "cask_types": [
+        4
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "포 로지스의 10가지 레시피 중 단일 배럴에서 선별. 풍부한 과일향, 바닐라, 스파이시한 라이, 긴 여운이 특징. 싱글 배럴 버번의 개성을 잘 보여주는 제품.",
+      "history": "포 로지스는 10가지 다른 버번 레시피를 보유한 독특한 증류소. 각 레시피는 2가지 매시빌과 5가지 효모의 조합으로 만들어진다.",
+      "bartender_tip": "싱글 배럴이라 배치마다 풍미가 조금씩 다릅니다. 니트로 마셔야 그 개성을 온전히 느낄 수 있어요.",
+      "pairing": [
+        "체리 파이",
+        "피칸",
+        "다크 초콜릿",
+        "숙성 체더"
+      ],
+      "serving_guide": {
+        "neat": "싱글 배럴의 개성을 니트로 즐기세요.",
+        "rocks": "온더락으로 부드럽게 즐길 수 있습니다.",
+        "splash": "물로 과일향이 더욱 살아납니다.",
+        "soda": "가능하지만 권장하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 10,
+        "sweet": 65,
+        "fruity": 65,
+        "woody": 70,
+        "spicy": 60,
+        "floral": 30
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 43,
+    "fields": {
+      "name": "Elijah Craig Small Batch",
+      "distillery": "Elijah Craig",
+      "country": "usa",
+      "whisky_type": "bourbon",
+      "region": "kentucky",
+      "age": null,
+      "abv": 47.0,
+      "cask_types": [
+        4
+      ],
+      "peat_level": "none",
+      "price_tier": "budget",
+      "description": "버번 위스키의 아버지 엘라이자 크레이그의 이름을 딴 위스키. 진한 오크, 카라멜, 민트, 스파이스의 클래식한 켄터키 버번 프로파일. 뛰어난 가성비.",
+      "history": "1789년 숯으로 그을린 오크 통을 처음 사용한 것으로 알려진 엘라이자 크레이그 목사의 이름을 딴 위스키. 헤븐힐 증류소에서 생산.",
+      "bartender_tip": "가성비 최고의 스몰 배치 버번입니다. 니트나 온더락으로 즐기면 충분한 풍미를 느낄 수 있어요.",
+      "pairing": [
+        "바닐라 아이스크림",
+        "바비큐",
+        "피칸",
+        "체더 치즈"
+      ],
+      "serving_guide": {
+        "neat": "클래식한 버번 풍미를 니트로 즐기세요.",
+        "rocks": "온더락으로 청량하게 즐기기 좋습니다.",
+        "splash": "물로 민트향이 더욱 살아납니다.",
+        "soda": "콜라나 진저에일과 잘 어울립니다."
+      },
+      "flavor_profile": {
+        "smoky": 10,
+        "sweet": 70,
+        "fruity": 35,
+        "woody": 80,
+        "spicy": 60,
+        "floral": 20
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 44,
+    "fields": {
+      "name": "Tullamore D.E.W.",
+      "distillery": "Tullamore",
+      "country": "ireland",
+      "whisky_type": "blended",
+      "region": "other",
+      "age": null,
+      "abv": 40.0,
+      "cask_types": [
+        1,
+        2
+      ],
+      "peat_level": "none",
+      "price_tier": "budget",
+      "description": "아일랜드 대표 블렌디드 위스키. 가볍고 부드러운 풍미에 사과, 바닐라, 약간의 스파이스. 제임슨과 함께 아이리시 위스키의 양대 산맥으로 칵테일에 특히 좋다.",
+      "history": "1829년 아일랜드 중부 털라모어에 설립. D.E.W.는 설립자 다니엘 에드먼드 윌리엄스의 이니셜. 다른 곡물과 증류 방식을 블렌딩한 트리플 우드 숙성 방식.",
+      "bartender_tip": "가볍고 부드러워 칵테일 베이스로 최적입니다. 아이리시 커피나 진저에일과 함께 즐겨보세요.",
+      "pairing": [
+        "사과 파이",
+        "진저 케이크",
+        "라이트 치즈",
+        "꿀"
+      ],
+      "serving_guide": {
+        "neat": "가볍고 부드러운 풍미를 니트로 즐기세요.",
+        "rocks": "온더락으로 청량하게 즐기기 좋습니다.",
+        "splash": "물로 더욱 가벼워집니다.",
+        "soda": "진저에일과 완벽한 조합입니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 55,
+        "fruity": 60,
+        "woody": 35,
+        "spicy": 25,
+        "floral": 40
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 45,
+    "fields": {
+      "name": "Bushmills Black Bush",
+      "distillery": "Bushmills",
+      "country": "ireland",
+      "whisky_type": "blended",
+      "region": "other",
+      "age": null,
+      "abv": 40.0,
+      "cask_types": [
+        2,
+        1
+      ],
+      "peat_level": "none",
+      "price_tier": "budget",
+      "description": "세계 최초의 합법 증류소 부시밀스의 대표 블렌디드. 셰리 캐스크 비율이 높아 진한 과일향, 다크 초콜릿, 바닐라의 달콤하고 풍부한 아이리시 위스키.",
+      "history": "1608년 세계 최초로 허가받은 증류소 부시밀스. 블랙 부시는 부시밀스 중 셰리 캐스크 숙성 몰트 비율이 가장 높은 제품으로 풍부한 풍미를 자랑한다.",
+      "bartender_tip": "아이리시 위스키 중 가장 달콤하고 진한 풍미입니다. 니트나 온더락으로 즐겨보세요.",
+      "pairing": [
+        "다크 초콜릿",
+        "건포도 케이크",
+        "체리",
+        "마일드 블루치즈"
+      ],
+      "serving_guide": {
+        "neat": "달콤하고 풍부한 풍미를 니트로 즐기세요.",
+        "rocks": "온더락으로 청량하게 즐기기 좋습니다.",
+        "splash": "물로 과일향이 더욱 살아납니다.",
+        "soda": "진저에일과 잘 어울립니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 70,
+        "fruity": 65,
+        "woody": 40,
+        "spicy": 25,
+        "floral": 35
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 46,
+    "fields": {
+      "name": "Auchentoshan Three Wood",
+      "distillery": "Auchentoshan",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "lowlands",
+      "age": null,
+      "abv": 43.0,
+      "cask_types": [
+        1,
+        2,
+        5
+      ],
+      "peat_level": "none",
+      "price_tier": "premium",
+      "description": "트리플 디스틸드 로우랜드 위스키의 대표작. 아메리칸 오크, 올로로소 셰리, PX 셰리 3가지 캐스크에서 차례로 숙성. 부드럽고 달콤하며 복잡한 풍미.",
+      "history": "1823년 설립된 글래스고 근교의 증류소. 트리플 디스틸드 방식으로 매우 부드러운 로우랜드 스타일을 완성한다. 쓰리 우드는 3가지 캐스크의 복합 숙성을 보여준다.",
+      "bartender_tip": "3가지 캐스크의 레이어가 인상적입니다. 니트로 마시면 순서대로 다른 풍미가 펼쳐집니다.",
+      "pairing": [
+        "크림 브륄레",
+        "오렌지 케이크",
+        "진저 비스킷",
+        "소프트 치즈"
+      ],
+      "serving_guide": {
+        "neat": "3가지 캐스크의 복합 풍미를 니트로 즐기세요.",
+        "rocks": "얼음으로 부드럽게 즐길 수 있습니다.",
+        "splash": "물로 더욱 복잡한 향이 펼쳐집니다.",
+        "soda": "하이볼로도 좋습니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 80,
+        "fruity": 70,
+        "woody": 55,
+        "spicy": 35,
+        "floral": 50
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 47,
+    "fields": {
+      "name": "GlenDronach 12 Year",
+      "distillery": "GlenDronach",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "highlands",
+      "age": 12,
+      "abv": 43.0,
+      "cask_types": [
+        2,
+        3
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "올로로소와 PX 셰리 캐스크 숙성의 하이랜드 대표작. 진한 건포도, 다크 초콜릿, 체리, 오렌지 껍질의 풍부하고 달콤한 풍미. 셰리 위스키 입문에 최적.",
+      "history": "1826년 설립. 2008년 빌리 워커가 인수 후 전통 셰리 캐스크 숙성 방식을 고수하며 품질을 크게 향상시켰다. 맥캘란의 대안으로 자주 언급되는 위스키.",
+      "bartender_tip": "맥캘란을 좋아하지만 가격이 부담스럽다면 글렌드로낙을 추천합니다. 니트로 마시면 진한 셰리 풍미를 즐길 수 있어요.",
+      "pairing": [
+        "다크 초콜릿",
+        "크리스마스 케이크",
+        "체리",
+        "스틸턴 치즈"
+      ],
+      "serving_guide": {
+        "neat": "진한 셰리 풍미를 니트로 즐기세요.",
+        "rocks": "얼음으로 부드럽게 즐길 수 있습니다.",
+        "splash": "물로 과일향이 더욱 살아납니다.",
+        "soda": "권장하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 85,
+        "fruity": 75,
+        "woody": 55,
+        "spicy": 45,
+        "floral": 25
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 48,
+    "fields": {
+      "name": "Ardbeg Uigeadail",
+      "distillery": "Ardbeg",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "islay",
+      "age": null,
+      "abv": 54.2,
+      "cask_types": [
+        1,
+        2
+      ],
+      "peat_level": "heavy",
+      "price_tier": "premium",
+      "description": "아드벡 10년과 셰리 캐스크 숙성 원액의 완벽한 조합. 강렬한 피트 스모크에 진한 초콜릿, 커피, 건과일의 달콤함이 더해진 걸작. 짐 머레이의 위스키 바이블에서 세계 최고 위스키로 선정.",
+      "history": "아드벡의 증류소 창고 옆 작은 호수 '우이게달'에서 이름을 따왔다. 셰리 캐스크와 버번 캐스크의 블렌딩으로 피트와 달콤함의 완벽한 균형을 이룬다.",
+      "bartender_tip": "피트와 달콤함이 동시에 느껴지는 독특한 경험. 니트로 마셔야 진가를 알 수 있습니다.",
+      "pairing": [
+        "에스프레소 초콜릿",
+        "훈제 고기",
+        "굴",
+        "아이라 치즈"
+      ],
+      "serving_guide": {
+        "neat": "피트와 달콤함의 완벽한 균형을 니트로 즐기세요.",
+        "rocks": "얼음으로 도수를 낮출 수 있습니다.",
+        "splash": "물로 달콤함이 더욱 살아납니다.",
+        "soda": "추천하지 않습니다."
+      },
+      "flavor_profile": {
+        "smoky": 88,
+        "sweet": 55,
+        "fruity": 40,
+        "woody": 55,
+        "spicy": 60,
+        "floral": 15
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 49,
+    "fields": {
+      "name": "Dewar's 12 Year",
+      "distillery": "Dewar's",
+      "country": "scotland",
+      "whisky_type": "blended",
+      "region": "other",
+      "age": 12,
+      "abv": 40.0,
+      "cask_types": [
+        1,
+        2
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "더블 에이지드 방식으로 블렌딩 후 추가 숙성. 달콤한 꿀, 바닐라, 크림, 가벼운 과일향의 부드럽고 균형 잡힌 블렌디드 스카치.",
+      "history": "1846년 설립된 디워스는 스카치 위스키를 세계에 알린 선구자. 더블 에이지드 방식은 블렌딩 후 추가로 몇 달을 더 숙성해 풍미를 하나로 통합시키는 독특한 기법.",
+      "bartender_tip": "부드럽고 달콤해서 하이볼로 즐기기 좋습니다. 니트로 마셔도 균형 잡힌 풍미를 즐길 수 있어요.",
+      "pairing": [
+        "꿀 케이크",
+        "사과",
+        "연어",
+        "마일드 체더"
+      ],
+      "serving_guide": {
+        "neat": "달콤하고 균형 잡힌 풍미를 니트로 즐기세요.",
+        "rocks": "온더락으로 청량하게.",
+        "splash": "물로 더욱 부드러워집니다.",
+        "soda": "하이볼로 매우 좋습니다."
+      },
+      "flavor_profile": {
+        "smoky": 15,
+        "sweet": 70,
+        "fruity": 55,
+        "woody": 45,
+        "spicy": 30,
+        "floral": 45
+      },
+      "image": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "whisky.whisky",
+    "pk": 50,
+    "fields": {
+      "name": "Benriach The Original Ten",
+      "distillery": "BenRiach",
+      "country": "scotland",
+      "whisky_type": "single_malt",
+      "region": "speyside",
+      "age": 10,
+      "abv": 43.0,
+      "cask_types": [
+        1,
+        2,
+        5
+      ],
+      "peat_level": "none",
+      "price_tier": "mid",
+      "description": "버번, 셰리, 포트 3가지 캐스크에서 숙성. 사과, 복숭아, 바닐라, 달콤한 오크의 과일향 풍부한 스페이사이드 위스키. 뛰어난 가성비의 트리플 캐스크 위스키.",
+      "history": "1898년 설립된 벤리아크는 2020년 브라운포먼이 인수 후 라인업을 전면 재편. 더 오리지널 텐은 새로운 시대의 시작을 알리는 입문용 플래그십.",
+      "bartender_tip": "3가지 캐스크의 조합이 다양한 풍미를 만들어냅니다. 니트나 온더락으로 과일향을 즐겨보세요.",
+      "pairing": [
+        "복숭아 타르트",
+        "사과",
+        "바닐라 크림",
+        "하바티 치즈"
+      ],
+      "serving_guide": {
+        "neat": "3가지 캐스크의 풍미를 니트로 즐기세요.",
+        "rocks": "얼음으로 청량하게.",
+        "splash": "물로 과일향이 더욱 살아납니다.",
+        "soda": "하이볼로도 좋습니다."
+      },
+      "flavor_profile": {
+        "smoky": 5,
+        "sweet": 70,
+        "fruity": 80,
+        "woody": 45,
+        "spicy": 25,
+        "floral": 60
+      },
       "image": "",
       "created_at": "2025-01-01T00:00:00Z",
       "updated_at": "2025-01-01T00:00:00Z"
