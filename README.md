@@ -1,4 +1,4 @@
-# my-whisky-project
+# My whisky project | Caskfolio
 
 2026년의 버킷리스트 중 하나가 '매달 새로운 술 마셔보기' 입니다.
 
@@ -12,8 +12,8 @@
 
 ## 🔥 Project 소개
 
-* 서비스 명 : 위스큐레이터(Whiscurator)
-* 위스키에 대해 큐레이팅 받는 느낌으로 서비스를 사용할 수 있으면 좋을 것 같아서!
+* 서비스 명 : Caskfolio
+* AI 챗봇 명 : 위스큐레이터(Whiscurator)
 
 
 
@@ -27,7 +27,7 @@
 * develop(개발): feature 브랜치 병합용 브랜치
 * feature(기능): 기능 개발 및 버그 수정용 브랜치
 
-
+-> MVP의 경우 1인 개발의 편의를 위해 main 브랜치에서 진행
 
 <br/>
 
