@@ -13,7 +13,7 @@ class ChatMessageSerializer(serializers.ModelSerializer):
 
 
 class ChatSessionSerializer(serializers.ModelSerializer):
-    message = ChatMessageSerializer(many=True, read_only=True)
+    messages = ChatMessageSerializer(many=True, read_only=True)
 
     class Meta:
         model = ChatSession

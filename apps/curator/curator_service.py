@@ -1,6 +1,7 @@
 from django.conf import settings
 from openai import OpenAI
 from apps.whisky.models import Whisky
+import re
 
 client = OpenAI(api_key=settings.OPENAI_API_KEY)
 
@@ -117,14 +118,14 @@ class WhiscuratorService:
             recommended_whiskies = self._parse_recommended_whiskies(ai_text)
 
             # [RECOMMEND] 태그 제거한 텍스트
-            clean_text = ai_text.split('RECOMMEND')[0].strip()
+            clean_text = re.sub(r'\[RECOMMEND\].*?\[/RECOMMEND\]', '', ai_text, flags=re.DOTALL).strip()
 
             return clean_text, recommended_whiskies
         
         except Exception as e:
             return f"죄송해요, 일시적인 오류가 발생했어요. 다시 시도해주세요. ({str(e)})", []
 
-    def _parser_recommended_whiskies(self, ai_text):
+    def _parse_recommended_whiskies(self, ai_text):
         # AI 응답에서 추천 위스키 파싱
         try:
             if '[RECOMMEND]' not in ai_text:

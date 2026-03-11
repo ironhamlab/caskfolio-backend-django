@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from .models import ChatSession, ChatMessage
 from .serializers import ChatSessionSerializer, ChatSessionListSerializer
 from .curator_service import WhiscuratorService
+from apps.whisky.serializers import WhiskyListSerializer
 
 
 
@@ -100,6 +101,6 @@ class SendMessageView(APIView):
             "is_first_message": is_first_message,
             "user_message": message,
             "ai_response": ai_response,
-            "recommended_whiskies": recommended_whiskies,            
+            "recommended_whiskies": WhiskyListSerializer(recommended_whiskies, many=True).data,            
         }, status=status.HTTP_200_OK)
     
