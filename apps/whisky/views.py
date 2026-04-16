@@ -34,6 +34,6 @@ class WhiskyListView(generics.ListAPIView):
 
 class WhiskyDetailView(generics.RetrieveAPIView):
     # 위스키 상세 - 도슨트 포함
-        serializer_class = WhiskyDetailSerializer
-        permission_classes = (AllowAny,)
-        queryset = Whisky.objects.prefetch_related('cask_types').all()
+    serializer_class = WhiskyDetailSerializer
+    permission_classes = (AllowAny,)
+    queryset = Whisky.objects.prefetch_related('cask_types').all()

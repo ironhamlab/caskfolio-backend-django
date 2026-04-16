@@ -121,7 +121,7 @@ class MyJourneyView(APIView):
         # 2. 지역 탐색 통계
         region_stats = (
             notes.values('whisky__region')
-            .annotate(conut=Count('id'))
+            .annotate(count=Count('id'))
             .order_by('-count')
         )
 
