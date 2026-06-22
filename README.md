@@ -39,7 +39,6 @@
 
 ### 5. AI 위스키 큐레이터
 - OpenAI GPT-4o-mini 기반 챗봇
-- RAG(Retrieval-Augmented Generation) 구현
   - 위스키 DB 컨텍스트 제공
   - 사용자 취향 데이터 분석 (테이스팅 노트, 컬렉션)
 - 개인화된 위스키 추천
