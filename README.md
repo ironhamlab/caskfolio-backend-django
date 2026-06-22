@@ -66,7 +66,7 @@
 
 ### 1. 저장소 클론
 ```bash
-git clone https://github.com/yourusername/caskfolio-backend-django.git
+git clone https://github.com/ironhamlab/caskfolio-backend-django.git
 cd caskfolio-backend-django
 ```
 
