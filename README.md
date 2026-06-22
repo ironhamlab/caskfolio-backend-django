@@ -81,16 +81,26 @@ poetry install
 ```
 
 ### 4. 환경 변수 설정
-`.env.example` 파일을 복사하여 `.env` 파일 생성 후 필요한 값 입력
+`.env.example` 파일을 복사하여 `.env` 파일 생성
 ```bash
 cp .env.example .env
 ```
 
-`.env` 파일 예시:
+**SECRET_KEY 생성**
+```bash
+python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
 ```
+
+생성된 키를 복사하여 `.env` 파일에 입력:
+```env
+# Django secret key
+SECRET_KEY=django-insecure-abc123xyz...
+
+# Debug mode (개발: True, 배포: False)
 DEBUG=True
-SECRET_KEY=your-secret-key-here
-OPENAI_API_KEY=your-openai-api-key
+
+# OpenAI API key (https://platform.openai.com/api-keys 에서 발급)
+OPENAI_API_KEY=sk-your-api-key-here
 ```
 
 ### 5. 데이터베이스 마이그레이션
