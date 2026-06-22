@@ -17,9 +17,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
+# ALLOWED_HOSTS: 배포 시 특정 도메인으로 설정
 ALLOWED_HOSTS = []
 
 
